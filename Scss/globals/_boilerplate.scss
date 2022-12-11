@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::after, *::before{
+  box-sizing: inherit;
+  transition: .5s;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+  display: flex;
+  li{
+    list-style: none;
+  }
+}
